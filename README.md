@@ -5,12 +5,12 @@ Automate your daily tech news with n8n and Groq AI. Get personalized, AI-curated
 
 ## 📸 Preview
 
-![Email Sample](<img width="950" height="391" alt="screenshots-email-sample1" src="https://github.com/user-attachments/assets/f038cf02-d2a7-4fc3-9c2d-94ff7f1abda1" />
+![Email Sample](<img width="950" height="391" alt="screenshots-email-sample1" src="https://github.com/user-attachments/assets/c37a191c-f397-47cd-93f8-d3f7d5458965" />
 )
 
 ## ✨ What It Does
 
-- 📰 Aggregates news from 10+ tech RSS feeds
+- 📰 Aggregates news from 5+ tech RSS feeds
 - 🤖 AI filters to your top 10 most relevant articles using Groq
 - ✍️ Generates smart summaries and key insights
 - 📧 Sends beautiful HTML email digest daily
@@ -19,7 +19,7 @@ Automate your daily tech news with n8n and Groq AI. Get personalized, AI-curated
 ## 🛠️ Tech Stack
 
 - **n8n** - Workflow automation
-- **Groq API** - AI filtering (Llama 3.3 70B) - FREE
+- **Groq API** - AI filtering (Llama 3.3 70B)
 - **Gmail** - Email delivery
 - **RSS Feeds** - News sources
 
@@ -31,55 +31,14 @@ Automate your daily tech news with n8n and Groq AI. Get personalized, AI-curated
 - Free Groq API key from [console.groq.com](https://console.groq.com)
 - Gmail account
 
-### Installation
-
-1. **Download the workflow**
-```bash
-   git clone https://github.com/yourusername/ai-news-digest.git
-   cd ai-news-digest
-```
-
-2. **Import to n8n**
-   - Open n8n
-   - Click **"Import from File"**
-   - Select `workflow.json`
-   - Workflow will be imported!
-
-3. **Set up credentials**
-   
-   **Groq API:**
-   - Get free API key: https://console.groq.com
-   - In n8n, find the "HTTP Request" node
-   - Add your Groq API key in Authentication
-
-   **Gmail:**
-   - Option A: Use Gmail OAuth (more secure)
-   - Option B: Use SMTP with App Password (easier)
-   - See [Gmail Setup Guide](#gmail-setup)
-
-4. **Configure preferences**
-   - Find the "Set" or "Edit Fields" node
-   - Update `userInterests` with your topics
-   - Update `excludeTopics` with topics to avoid
-
-5. **Activate workflow**
-   - Click **"Active"** toggle at top
-   - Workflow runs daily at 8 AM automatically!
-
 ## 📋 RSS Feeds Included
 
-- OpenAI Blog
-- Anthropic News  
-- VentureBeat AI
+- Wired
 - TechCrunch AI
-- Hacker News
-- GitHub Blog
-- Hugging Face
-- arXiv AI
-- YourStory
-- Moneycontrol Tech
-
-**Want to add more?** Just duplicate an RSS node and change the URL!
+- Ycombinator
+- Google RSS
+- Mashable
+- MIT News
 
 ## ⚙️ Customization
 
@@ -175,8 +134,3 @@ Send to Gmail ✉️
 - [n8n](https://n8n.io) - Workflow automation
 - [Groq](https://groq.com) - AI inference
 
----
-
-⭐ **Like this project? Give it a star!**
-
-Made with ❤️ by [Your Name]
