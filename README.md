@@ -22,7 +22,7 @@ Automate your daily tech news with n8n and Groq AI. Get personalized, AI-curated
 - **Gmail** - Email delivery
 - **RSS Feeds** - News sources
 
-## 🚀 Quick Setup (5 Minutes)
+## 🚀 Setup 
 
 ### Prerequisites
 
@@ -74,7 +74,7 @@ To any [Groq model](https://console.groq.com/docs/models):
 - `mixtral-8x7b-32768` - Faster, cheaper
 - `llama-3.3-70b-versatile` - Best quality (recommended)
 
-## 📊 How It Works
+## 📊 Architecture
 ```
 RSS Feeds (100+ articles)
     ↓
