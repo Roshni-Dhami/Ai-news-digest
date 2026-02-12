@@ -1,0 +1,13 @@
+# Create the file
+touch .gitignore
+
+# Add this content:
+.env
+.env.*
+credentials.json
+token.json
+*.key
+.n8n/
+*.db
+.DS_Store
+Thumbs.db
