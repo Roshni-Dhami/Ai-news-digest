@@ -5,7 +5,7 @@ Automate your daily tech news with n8n and Groq AI. Get personalized, AI-curated
 
 ## 📸 Preview
 
-![Email Sample](screenshots-email-sample1)
+![Email Sample](Ai-news-digest/screenshots-email-sample1.png)
 
 ## ✨ What It Does
 
