@@ -5,8 +5,7 @@ Automate your daily tech news with n8n and Groq AI. Get personalized, AI-curated
 
 ## 📸 Preview
 
-![Email Sample](<img width="950" height="391" alt="screenshots-email-sample1" src="https://github.com/user-attachments/assets/c37a191c-f397-47cd-93f8-d3f7d5458965" />
-)
+![Email Sample](screenshots-email-sample1)
 
 ## ✨ What It Does
 
